@@ -1,5 +1,7 @@
 def greet(name):
-    return f"Hello, {name}! Welcome to GitHub Cloud Lab."
+    """Return a greeting string."""
+    return f"Hello, {name}! Welcome to GitHub Cloud."
 
 if __name__ == "__main__":
-    print(greet("Zeynep Nur Ozkara"))
+    print(greet("World"))
+    print(greet("GitHub"))
